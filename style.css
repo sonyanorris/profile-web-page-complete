@@ -1,0 +1,171 @@
+
+/*Font family & line height for web page*/
+body{
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.4;
+}
+
+/*Font size in main & footer*/
+main,
+footer{
+  font-size: 16px;
+}
+
+/*Horizontal lines*/
+hr{
+  margin-top: 50px;
+  border-top: 1px solid #637081;
+  margin-bottom: 50px;
+
+}
+
+/*h1 style*/
+h1{
+  text-align: center;
+  font-size: 24px;
+  font-weight: 800;
+  color: #FFFFFF;
+  padding: 0px;
+  margin: 15px 15px 0px 15px;
+}
+
+/*Product Manager*/
+h2{
+  font-family: 'Architects Daughter', cursive;
+  text-align: center;
+  font-size: 20px;
+  color: #FF785A;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  font-weight: 400px;
+}
+
+/*Navigation bar position*/
+nav {
+margin-top:40px;
+text-align: center;
+}
+
+/*Navigatioon links style*/
+nav > a {
+  padding: 18px;;
+  font-size: 16px;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  color: #211A1D;
+  word-spacing: 200px;
+  font-weight: 300;
+  text-align: center;
+}
+
+/*Navigation links styled using pseudo-classes*/
+header a:link {
+  color:  gray;
+}
+header a:visited {
+  color:  gray;
+}
+header a:hover {
+  color: #211A1D;
+}
+header a:active {
+  color: #211A1D;
+}
+
+/*Photo style*/
+img{
+  border-radius: 0%;
+  align-self: center;
+  width: 400px;
+  margin: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+/*h2 style*/
+h3{
+  text-align: center;
+  font-size: 18px;
+  color: #FF785A;
+  text-transform: uppercase;
+  font-weight: 200px;
+}
+
+/*Paras in main - common components style*/
+main  p{
+  text-align: center;
+  display: block;
+}
+
+/*"Core Competencies" section class*/
+.displayed-comp{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto; 
+    height: 300px;
+}
+
+/*Core Competencies list style*/
+ul.style{
+  list-style-type: square;
+  list-style-position: inside;
+  text-align: center;
+  color:#211A1D;
+}
+
+
+/*Desscription under image and "About myself" section class*/
+.displayed-about {  
+    margin-top: 50px;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto; 
+    width: 600px;
+}
+
+/*Ordered list style in "Contact me*/
+ol.style{
+list-style-position: inside;
+text-align: left;
+}
+
+main a:link {
+  color: #717EC3;
+}
+
+main a:visited {
+  color: #637081;
+}
+
+main a:hover {
+  color: #FF785A;
+}
+
+/*Google maps iframe style*/
+iframe{
+margin: 20px;
+}
+
+/*Header box style */
+.border-box-header {
+  box-sizing: border-box;
+  background: #637081;
+  padding: 20px;
+  text-align: center;
+}
+
+/*Footer box style*/
+.border-box-footer {
+  box-sizing: border-box;
+  background: #637081;
+  padding: 20px; 
+  text-align: center;
+}
+
+/*Para in footer style*/
+footer p{
+  color: #FFFFFF;
+  font-weight: 500px;
+}
